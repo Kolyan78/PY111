@@ -42,6 +42,8 @@ class Queue:
 
         return self.__my_queue[ind]
 
+        return self.__my_queue[ind]
+
     def clear(self) -> None:
         """
         Clear my queue
