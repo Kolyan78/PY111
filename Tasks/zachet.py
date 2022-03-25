@@ -16,6 +16,11 @@ class Val():
 
 class Money(Val):
     def __init__(self, value: float, valute="RUR"):
+        """
+        Основной класс Money
+        :param value: значение, типа float
+        :param valute: код валюты, по умолчанию RUR
+        """
         self.value = value
         self.valute = valute
 
